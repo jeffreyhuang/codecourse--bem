@@ -1,19 +1,9 @@
-.avatar {
-  border-radius: 100%;
-  width: 50px;
-  height: 50px;
+.inline-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
-nav.top .avatar {
-  width: 30px;
-  height: 30px;
-}
-
-nav.bottom .avatar {
-  width: 40px;
-  height: 40px;
-}
-
-nav.bottom .avatar.grayscale {
-  filter: grayscale(80%)
+.inline-list__item {
+  display: inline-block;
 }
