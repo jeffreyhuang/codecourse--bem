@@ -4,6 +4,15 @@
   margin: 0;
 }
 
+.inline-list--bordered {
+  border: 1px solid red;
+}
+
 .inline-list__item {
   display: inline-block;
+  margin-right: 30px;
+}
+
+.inline-list__item--end {
+  margin-right: 0;
 }
