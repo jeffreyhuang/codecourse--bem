@@ -1,18 +1,13 @@
-.inline-list {
+.list {
   list-style-type: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
+}
+.list__item {
+  margin-bottom: 10px;
+}
+.list__item--last {
+  margin-bottom: 0;
 }
 
-.inline-list--bordered {
-  border: 1px solid red;
-}
-
-.inline-list__item {
-  display: inline-block;
-  margin-right: 30px;
-}
-
-.inline-list__item--end {
-  margin-right: 0;
-}
+/*# sourceMappingURL=app.css.map */
