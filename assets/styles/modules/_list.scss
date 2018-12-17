@@ -3,10 +3,10 @@
   margin: 0;
   padding: 0;
 
-  &__item {
+  @include e('item') {
     margin-bottom: 10px;
 
-    &--last {
+    @include m('last') {
       margin-bottom: 0;
     }
   }
